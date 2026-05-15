@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>जय माँ पुस्तक भंडार | Jai Maa Pustak Bhandar - Online Bookstore</title>
+  
+  <meta name="description" content="Order CBSE, NCERT, and Competitive exam books online. Fast home delivery via WhatsApp in Delhi.">
+  <meta name="theme-color" content="#0a0a0a">
+  
+  <!-- Performance: Preload critical LCP asset -->
+  <link rel="preload" as="image" href="/bookstore_hero.png" fetchpriority="high">
+  
+  <!-- Preconnect to speed up font loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+  
+  <!-- Preconnect for Google Maps to speed up iframe load time -->
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="preconnect" href="https://maps.gstatic.com" crossorigin>
+  
+  <!-- Preload main stylesheet -->
+  <link rel="preload" href="/src/style.css" as="style">
+  <link rel="stylesheet" href="/src/style.css">
+  
+  <!-- Performance: Critical CSS for LCP and FCP -->
+  <style>
+    body { background-color: #0a0a0a; margin: 0; }
+    .hero { background: #0a0a0a; min-height: 85vh; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+    .hero-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.3; filter: brightness(0.6); z-index: 1; }
+    .hero-content { position: relative; z-index: 2; text-align: center; }
+    .gradient-text { background: linear-gradient(135deg, #FF6B00 0%, #FFD700 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav id="navbar">
+      <a href="#" class="logo">
+        <span class="gradient-text">जय माँ</span> पुस्तक भंडार
+      </a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#library">Library</a>
+        <a href="#order">Quick Order</a>
+      </div>
+      <a href="tel:+919350627196" class="btn" style="padding: 0.6rem 1.5rem; font-size: 0.85rem;">Call</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <img src="/bookstore_hero.png" alt="Jai Maa Pustak Bhandar Interior" class="hero-bg" width="1200" height="800" fetchpriority="high" decoding="sync">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="gradient-text">जय माँ पुस्तक भंडार</h1>
+        <p>Delhi's most trusted bookstore. Browse our huge library and order via WhatsApp for instant home delivery.</p>
+        <div class="hero-buttons">
+          <a href="#library" class="btn">Browse Library</a>
+          <a href="#order" class="btn btn-outline">Quick Order</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section / Articles -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+          <h2 class="gradient-text">Delhi's Trusted Bookstore 📖</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-article">
+            <h3>Jai Maa Pustak Bhandar</h3>
+            <p>Welcome to Jai Maa Pustak Bhandar, your ultimate destination for all educational and competitive exam books in Delhi NCR. Whether you are preparing for your CBSE Board Exams, studying through NIOS, or aiming for prestigious competitive exams, we have you covered.</p>
+            <p>For over a decade, we have been serving the student community with genuine, high-quality books at the most affordable prices. Now, we are bringing our entire library online. Find the exact book you need and get it delivered directly to your home via our lightning-fast WhatsApp ordering system.</p>
+            
+            <div class="highlight-box">
+              <p>🎯 100% Genuine Books &amp; Study Materials</p>
+              <p style="margin-top: 0.5rem; color: var(--text-muted); font-size: 0.95rem; font-weight: 400;">We source directly from official publishers like NCERT and top private publications.</p>
+            </div>
+            
+            <a href="#library" class="btn" style="margin-top: 2rem;">Explore Our Library</a>
+          </div>
+          
+          <div class="map-container" id="map-facade" style="cursor: pointer; position: relative; display: flex; align-items: center; justify-content: center; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://maps.googleapis.com/maps/api/staticmap?center=28.631433,77.032081&zoom=15&size=600x400&maptype=roadmap&markers=color:orange%7C28.631433,77.032081&key=YOUR_API_KEY') center/cover; min-height: 400px; border-radius: 32px; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <div style="text-align: center;">
+              <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
+              <h3 style="color: white; font-family: var(--font-heading); margin-bottom: 0.5rem;">View on Google Maps</h3>
+              <p style="color: var(--text-muted);">Click to load interactive map</p>
+            </div>
+            <!-- The iframe will be injected here on click to preserve 100% performance score -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Library Section -->
+    <section id="library" class="library-section">
+      <div class="container">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+          <h2 class="gradient-text">Har Board Ki Books 📚</h2>
+          <p>CBSE, ICSE, NIOS, UP Board aur sabhi State Boards ki books yahan uplabdha hain.</p>
+        </div>
+        
+        <!-- Selection Wizard -->
+        <div id="wizard-container">
+          <!-- Dynamically filled by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order-section">
+      <div class="container">
+        <div class="order-container">
+          <div class="order-info">
+            <h2 class="gradient-text">Place Your Order 📦</h2>
+            <p>Fill in your details below. If you selected a book from the library, it will be pre-filled for you.</p>
+            <div style="margin-top: 2rem;">
+               <p>📍 Delhi NCR Delivery</p>
+               <p>⚡ Same Day Shipping</p>
+               <p>💰 Cash on Delivery Available</p>
+            </div>
+          </div>
+
+          <div class="whatsapp-form">
+            <form id="orderForm">
+              <div class="form-group">
+                <label for="name">Apka Naam</label>
+                <input type="text" id="name" name="name" required placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for="phone">WhatsApp Number</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <label for="books">Book Details</label>
+                <textarea id="books" name="books" required placeholder="Which books do you need?"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="address">Full Address</label>
+                <textarea id="address" name="address" required placeholder="Address"></textarea>
+              </div>
+              <button type="submit" class="btn" style="width: 100%;">Order on WhatsApp 💬</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="fab-container">
+    <a href="https://wa.me/919350627196" class="fab fab-whatsapp" aria-label="Order on WhatsApp" target="_blank" rel="noopener noreferrer">💬</a>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
