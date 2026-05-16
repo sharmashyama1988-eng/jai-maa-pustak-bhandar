@@ -1,15 +1,11 @@
 // Data Structure for the Library
 const libraryData = {
-  boards: ["CBSE", "ICSE", "Bihar Board", "UP Board", "NIOS", "Competition", "General Books", "Other Boards"],
+  boards: ["CBSE", "NIOS", "Competition", "General Books"],
   classes: {
     "CBSE": ["12th", "11th", "10th", "9th", "8th", "6th-7th", "1st-5th"],
-    "ICSE": ["12th", "11th", "10th", "9th", "8th", "1st-7th"],
-    "Bihar Board": ["12th", "10th", "9th", "Other"],
-    "UP Board": ["12th", "10th", "9th", "Other"],
     "NIOS": ["Secondary (10th)", "Sr. Secondary (12th)", "Vocational"],
     "Competition": ["UPSC", "SSC", "Banking", "Railway", "NEET/JEE", "Police/Defense", "CUET"],
-    "General Books": ["Novels", "Self Help", "Religious", "Dictionary", "Stationery"],
-    "Other Boards": ["Rajasthan Board", "MP Board", "Haryana Board", "Uttarakhand Board"]
+    "General Books": ["Novels", "Self Help", "Religious", "Dictionary", "Stationery"]
   },
   subjects: {
     "12th": ["Physics", "Chemistry", "Maths", "Biology", "Accounts", "Economics", "History", "Hindi", "English"],
