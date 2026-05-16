@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI Agents and Crawlers Instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://jai-maa-pustak-bhandar.vercel.app/sitemap.xml
